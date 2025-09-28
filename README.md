@@ -57,10 +57,45 @@ floorplan-dimractor/
 ├── tests/
 │ └── test_extractor.py # Unit tests
 ├── main.py # Command-line interface
-├── streamlit_app.py # Web interface
+├── app.py # Web interface
 ├── requirements.txt # Python dependencies
 └── README.md
 ```
+---
+
+## 📦 Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/jasoncobra3/Floorplan-Dimractor.git
+   cd Floorplan-Dimractor
+
+
+2. **Create Virtual Environment**
+   ```bash
+    python -m venv venv
+   
+3. **Activate the Virtual Environment**
+   ```bash
+    # Windows:
+    venv\Scripts\activate
+    # macOS/Linux:
+    venv/bin/activate
+
+4. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+
+---
+
+
+##  🚀Run the App
+   **Run the Script in Terminal**
+   ```bash
+     streamlit run app.py
+   ```
+
 
 ---
 
@@ -83,7 +118,7 @@ floorplan-dimractor/
 1. **Challenge 1: PDF Text Extraction Variability**<br>
    **Problem: Different PDF generators create varying text layouts and encoding.**
 
-    Solution:
+    **Solution:**
    -  Implemented dual-library approach (PyMuPDF + pdfplumber)
    -  Combined text extraction with spatial analysis
    -  Added fallback mechanisms for different PDF types
@@ -96,7 +131,7 @@ floorplan-dimractor/
    - 34 (1/2)" (Fractions)
    - 25 3/4" (Mixed numbers)
 
-   Solution:
+   **Solution:**
    - Created comprehensive regex patterns
    - Implemented format-specific parsers
    - Added validation and error recovery
@@ -104,7 +139,7 @@ floorplan-dimractor/
 3.  **Challenge 3: Bounding Box Accuracy**<br>
    **Problem: Text bounding boxes don't always match visual elements.**
 
-    Solution:
+    **Solution:**
     - Combined multiple text extraction methods
     - Implemented coordinate normalization
     - Added visualization for manual verification
@@ -112,7 +147,44 @@ floorplan-dimractor/
 4.  **Challenge 4: Performance Optimization**<br>
    **Problem: Large PDF files with complex layouts can be slow to process.**
 
-    Solution:
+    **Solution:**
     - Implemented efficient text filtering
     - Added progress tracking
     - Provided multiple processing options
+  
+  ---
+
+## 📊 Approach Comparison: PyMuPDF vs pdfplumber
+
+| Feature | PyMuPDF | pdfplumber |
+|---------|---------|------------|
+| Speed | Very Fast | Moderate |
+| Text Accuracy | Good | Excellent |
+| Layout Analysis | Basic | Excellent |
+| Bounding Box Precision | Good | Excellent |
+| Ease of Use | Very Easy | Easy |
+| Memory Usage | Very Efficient | Moderate |
+| Installation | Very Easy | Easy |
+| Documentation | Good | Excellent |
+| Complex Layout Handling | Limited | Excellent |
+| Text Extraction Quality | Good | Excellent |
+| Table Extraction | Basic | Excellent |
+| Image Extraction | Excellent | Good |
+| Performance with Large Files | Excellent | Good |
+| Coordinate Accuracy | Good | Excellent |
+| Font Information | Basic | Detailed |
+| Active Maintenance | Yes | Yes |
+
+**Summary**
+- PyMuPDF (fitz) excels in speed and memory efficiency, making it ideal for processing large numbers of PDFs quickly. It's straightforward to use and handles basic text extraction well.
+- pdfplumber provides superior layout analysis and text extraction accuracy, especially for complex documents. It offers more detailed information about text positioning and structure but at the cost of performance.
+
+**Recommendation**
+- Choose PyMuPDF for: High-volume processing, simple documents, when speed is critical
+- Choose pdfplumber for: Complex layouts, accurate spatial data, detailed text analysis
+
+---
+
+<div align="center">
+If you find this project useful, please give it a ⭐!
+</div> 
