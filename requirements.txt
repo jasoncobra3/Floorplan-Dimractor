@@ -1,0 +1,10 @@
+pymupdf
+pdfplumber
+regex
+opencv-python
+pytesseract
+Pillow
+streamlit
+numpy
+matplotlib
+json5
