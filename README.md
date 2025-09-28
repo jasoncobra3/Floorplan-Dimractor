@@ -115,14 +115,14 @@ floorplan-dimractor/
 ---
 
 ## 📸 Screenshots
-
-| Scrape Chapter | AI Rewrite | Review & Edit |
+| Dashboard KPI View| Month DropDown | Reccommendations |
 |----------------|------------|---------------|
-| ![](project_screenshots/scraper_ui.png) | ![](project_screenshots/spin_ai.png) | ![](project_screenshots/review_ui.png) |
+| ![](docs/Assets/Screenshot_1.png) | ![](docs/Assets/Screenshot_2.png) | ![](docs/Assets/Screenshot_3.png)|
 
-| View Versions | Semantic Search |
-|---------------|------------------|
-| ![](project_screenshots/version_table.png) | ![](project_screenshots/semantic_search.png) |
+| Underutilized resources| AI RAG Chatbot | Response With Resource group |
+|----------------|------------|----------------|
+|![](docs/Assets/Screenshot_5.png)| ![](docs/Assets/Screenshot_7.png) | ![](docs/Assets/Screenshot_8.png) |
+
 
 
 
