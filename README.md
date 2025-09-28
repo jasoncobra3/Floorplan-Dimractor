@@ -111,7 +111,23 @@ floorplan-dimractor/
 - Extensible Architecture: Easy to add new parsers or detectors
 - Error Handling: Graceful degradation and informative error messages
 
+  
 ---
+
+## 📸 Screenshots
+
+| Scrape Chapter | AI Rewrite | Review & Edit |
+|----------------|------------|---------------|
+| ![](project_screenshots/scraper_ui.png) | ![](project_screenshots/spin_ai.png) | ![](project_screenshots/review_ui.png) |
+
+| View Versions | Semantic Search |
+|---------------|------------------|
+| ![](project_screenshots/version_table.png) | ![](project_screenshots/semantic_search.png) |
+
+
+
+---
+
 
 ## 🎯 Challenges & Solutions
 
