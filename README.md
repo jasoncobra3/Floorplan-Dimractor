@@ -115,13 +115,13 @@ floorplan-dimractor/
 ---
 
 ## 📸 Screenshots
-| Dashboard KPI View| Month DropDown | Reccommendations |
-|----------------|------------|---------------|
-| ![](docs/Assets/Screenshot_1.png) | ![](docs/Assets/Screenshot_2.png) | ![](docs/Assets/Screenshot_3.png)|
 
-| Underutilized resources| AI RAG Chatbot | Response With Resource group |
-|----------------|------------|----------------|
-|![](docs/Assets/Screenshot_5.png)| ![](docs/Assets/Screenshot_7.png) | ![](docs/Assets/Screenshot_8.png) |
+
+|![](src/Screenshots/Screenshot_1.png)| ![](src/Screenshots/Screenshot_6.png) | ![](src/Screenshots/Screenshot_2.png) |
+|----------------|------------|---------------|
+| ![](src/Screenshots/Screenshot_3.png) |![](src/Screenshots/Screenshot_5.png)|![](src/Screenshots/Screenshot_4.png)|
+
+
 
 
 
